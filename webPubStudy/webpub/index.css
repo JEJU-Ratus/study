@@ -1,0 +1,36 @@
+.box1{
+  width: 13mm;
+  height: 2cm;
+  background-color: red;
+  border: 1px solid;
+  border-color: black;
+  margin-bottom: 20px;
+}
+.box2{
+  width: 13mm;
+  height: 2cm;
+  background-color: red;
+  border: 1px solid;
+  border-color: black;
+  margin-bottom: 20px;
+}
+.box3{
+  width: 13mm;
+  height: 2cm;
+  background-color: red;
+  border: 1px solid;
+  border-color: black;
+  margin-bottom: 20px;
+}
+.box4{
+  width: 13mm;
+  height: 2cm;
+  background-color: red;
+  border: 1px solid;
+  border-color: black;
+  margin-bottom: 20px;
+}
+.boxx{
+  display: flex;
+  gap: 3px;
+}

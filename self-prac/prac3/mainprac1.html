@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>두번째</title>
+    <link rel="stylesheet" href="mainprac1.css">
+</head>
+
+<body>
+    <div class="wrap ">
+        <!-- 전체 구조 -->
+        <header class="str_wrap clearfix">
+            <!-- 내부 요소 구조 str-wrap -->
+            <!-- 상단 로고 이미지 -->
+            <h1 class=" scr_out"></h1>
+            <img class="tit_logo" src="../images/title.png" alt="">
+            <h2 class="scr_out">상단메뉴</h2>
+            <!-- 상단 메뉴 -->
+            <nav class="lb nav">
+                <ul class="lb lst">
+                    <a href="#">
+                        <li class="lb bd_fon mar_menu">HOME</li>
+                    </a>
+                    <a href="#">
+                        <li class="lb bd_fon mar_menu">HTML</li>
+                    </a>
+                    <a href="#">
+                        <li class="lb bd_fon mar_menu">CSS</li>
+                    </a>
+                    <a href="#">
+                        <li class="lb bd_fon mar_menu">JavaScript </li>
+                    </a>
+                </ul>
+            </nav>
+        </header>
+        <div class="hello">
+            <!-- 메인의 상단 소개 단락. 사자 이미지와 회원가입 버튼 등 -->
+            <div class="str_wrap">
+                <img class="pic_lycat" src="../images/lycat.png" alt="라이캣이미지">
+                <ul class="lb lst">
+                    <li class="bd_fon hello_op1">모두의HTML/CSS</li>
+                    <li class="bd_fon hello_op2">HELLO<br>WORLD! :)</li>
+                    <li class="hello_op3">Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br>Ullam
+                        aliquam ratione, a eos perspicaiatis temporibus</li>
+                    <li>
+                        <a href="#">
+                            <div class="btn_sign">회원가입</div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="str_wrap">
+            <h3 class="scr_out">HTML,CSS,JAVSCRIPT소개</h3>
+            <div class="intro">
+                <!-- 메인 소개 화면 두번째 단 HTML CSS JAVASCRIPT 설명 -->
+                <div class="lb intro_child">
+                    <strong class="tit_intro">HTML</strong>
+                    <ul class="lsp">
+                        <li class="fon_intro">Hypertext Markup Language 하이퍼텍스트 마크업 언어</li>
+                        <li class="fon_intro">웹을 이루는 가장 기초적인 구성 요소로, 웹 콘텐츠의 의미와 구조를 정의할 때 사용</li>
+                    </ul>
+                </div>
+                <div class="lb intro_child">
+                    <strong class="tit_intro">CSS</strong>
+                    <ul class="lsp">
+                        <li class="fon_intro">Cascading Style Sheets</li>
+                        <li class="fon_intro">HTML이나 XML(XML의 방언인 SVG, XHTML포함)로 작성된 문서의 표시 방법을 기술하기 위한 스타일 시트 언어</li>
+                    </ul>
+                </div>
+                <div class="lb intro_child">
+                    <strong class="tit_intro">JavaScript</strong>
+                    <ul class="lsp">
+                        <li class="fon_intro">일급 함수를 사용하는 가벼운 객체 지향 인터프리터 언어</li>
+                        <li class="fon_intro">웹페이지의 스크립트 언어로 잘 알려져 있지만, 브라우저가 아닌 환경에서도 많이 사용됨</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="str_chabox">
+                <!-- 메인 화면 세번째 단 이미지들 정렬 -->
+                <div class="lb">
+                    <div class="box_cha mura">
+                        <!-- mura 박스 -->
+                        <ul class="lb lst fon_mura">
+                            <li class="bd_fon fon1_chabox">오전 5:00</li>
+                            <li class="bd_fon fon2_chabox">헛둘셋넷<br>열심히 운동하기</li>
+                            <li>amet consectetur adipisicing elit.</li>
+                        </ul>
+                        <img class="pic_cha mura" src="../images/mura.png" alt="무라이미지">
+                    </div>
+                    <div class=" box_cha soulgom">
+                        <!-- soulgom 박스 -->
+                        <ul class="lb lst fon_soga">
+                            <li class="bd_fon fon1_chabox">오전 9:00</li>
+                            <li class="bd_fon fon2_chabox">지친몸 이끌고<br>출근하기</li>
+                            <li>amet consectetur adipisicing elit.</li>
+                        </ul>
+                        <img class="pic_cha soulgom" src="../images/soulgom.png" alt="소울곰">
+                    </div>
+                </div>
+                <div class="lb box-gary">
+                    <!-- gari 박스 -->
+                    <ul class="lb lst fon_soga">
+                        <li class="bd_fon fon1_chabox">오후 6:00</li>
+                        <li class="bd_fon fon2_chabox">치킨과 함께하는<br>씐나는 퇴근</li>
+                        <li>amet consectetur adipisicing elit.</li>
+                    </ul>
+                    <img class="pic_cha gary" src="../images/gary.png" alt="가리">
+                </div>
+            </div>
+            <div>
+                <!-- 마지막 단락 탭 제목 밑 탭 영역 -->
+                <h3 class="tit_tab">Lorem insum dolor sit</h3>
+            </div>
+
+            <!-- 마지막 단락 탭 부분 -->
+            <div class="str_wrap box_tab">
+                <input type="radio" id="tabfirst" name="mytabs" checked="checked">
+                <label for="tabfirst">Tab1</label>
+                <div class="space_tab">
+                    <ol start="10" reversed>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, vel autem corrupti blanditiis
+                            accusantium itaque maxime quaerat, facilis commodi at nam sunt vitae eum. Cupiditate ex in
+                            quisquam possimus obcaecati!</li>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus recusandae nulla
+                            facere! Cum nisi inventore, harum, magni recusandae pariatur eligendi necessitatibus
+                            suscipit quas laboriosam impedit qui. Nostrum iusto accusamus voluptatibus.</li>
+                        <li>test</li>
+                    </ol>
+                </div>
+
+                <input type="radio" id="tabsecond" name="mytabs">
+                <label for="tabscond">Tab2</label>
+                <div class="space_tab">
+                    <ol start="10" reversed>
+                        <li>test</li>
+                        <li>test</li>
+                        <li>test</li>
+                    </ol>
+                </div>
+
+                <input type="radio" id="tabthird" name="mytabs">
+                <label for="tabthird">Tab3</label>
+                <div class="space_tab">
+                    <ol start="10" reversed>
+                        <li>test</li>
+                        <li>test</li>
+                        <li>test</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>

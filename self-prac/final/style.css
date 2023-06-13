@@ -1,0 +1,167 @@
+/* 선택자 쓰고 왜 띄어쓰기 하나요 */
+main{
+    padding-bottom: 300px;
+}
+header {
+    display: flex;
+    justify-content: center;
+    gap: 170px;
+    padding: 24px 0px 21px;
+    margin-left: -150px;
+}
+/* 왜 버튼마다 앵커의 클릭 간격이 같아야 하나요 */
+nav {
+    display: flex;
+    gap: 80px;
+    align-items: center;
+}
+
+nav a{
+    width: 86px;
+    text-align: center;
+}
+
+.container-banner {
+    display: flex;
+    justify-content: center;
+    background-color: #ffcf5c;
+    align-items: center;
+}
+.text-banner {
+    flex-basis: 500px;
+}
+.text-banner strong{
+    font-size: 100px;
+    line-height: 100px;
+    display: block;
+    margin: 20px 0;
+}
+.text-banner a{
+    margin-top: 50px;
+    padding: 20px 55px;
+    background-color: #3a2a21;
+    color: white;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.container-language {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    margin: 90px 0px;
+}
+.container-language div{
+    flex-basis: 300px;
+}
+.container-language strong{
+    display: block;
+    margin: 0 0 8px -20px;
+}
+.container-language li{
+    font-size: 16px;
+    color: #767676;
+}
+
+.container-time {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 24px;
+    width: 1220px;
+    height: 600px;
+    margin: auto ;
+    list-style: none;
+}
+
+.container-time li{
+    padding:  30px 0 0 32px;
+    flex-grow: 1;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    border-radius: 10px;
+}
+.container-time div{
+    width: 300px;
+}
+
+.container-time .mura{
+    background-color: #E37066;
+    color: white;
+    background-image: url("../images/mura.png");
+}
+
+.container-time .soulgom{
+    background-color: #CBDFF7;
+    background-image: url("../images/soulgom.png");
+
+}
+
+.container-time .gary{
+    background-color: #D2E579;
+    background-image: url("../images/gary.png");
+
+    
+}
+.container-time strong{
+    display: block;
+    margin: 32px 0 10px;
+    font-size: 40px;
+}
+
+.container-time p{
+    font-size: 16px;
+}
+
+.container-time time{
+    border-bottom: 2px solid black;
+}
+.mura time{
+    border-bottom: 2px solid white;
+}
+.container-board{
+    width: 1200px;
+    margin: 200px auto 0;
+}
+
+.container-board h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+.list-buttons  li{
+display: inline-block;
+}
+
+.list-buttons button {
+    background-color: #f5f5f5;
+    font-size: 16px;
+    padding: 10px 80px;
+    border: none;
+}
+
+.list-buttons .active{
+    background-color: #FFCF5c;
+}
+
+.list-board{
+    margin-top: 20px;
+    list-style: none;
+
+}
+.list-board li{
+    padding: 30px 30px 30px 15px;
+    border-top:  1px solid #d9d9d9;
+}
+.list-board a{
+    display: flex;
+}
+.list-board span{
+    margin-right: 75px;
+    font-weight: 700;
+}
+.list-board time{
+    margin-left: auto;
+}
+
