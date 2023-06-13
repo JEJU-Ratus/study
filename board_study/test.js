@@ -1,0 +1,1 @@
+const slides = document.querySelector(".slides");

@@ -1,0 +1,109 @@
+@import "reset.css";
+
+.box1{
+    padding: 16px 17px;
+    border : 1px solid rgb(174, 174, 174);
+    width: 350px;
+    box-sizing: border-box;
+    background-color: rgba(241, 241, 241, 0.975);
+    font-size: 12px;
+}
+
+
+.login_box{
+
+    border-radius: 3px;
+    background-color: #00c43b;
+    width: 315px;
+    margin-top: 12px;
+}
+
+.login_guide{
+    color: gray;
+}
+
+.ko_login{
+    position:absolute;
+    top: 69px;
+    left: 195px;
+    font-weight: bolder;
+    color: white;
+}
+
+.circle::after{
+    display: inline-block;
+    width: 3px;
+    height: 3px;
+    border: 1px;
+    border-radius: 50%;
+    background-color: rgb(187, 185, 185);
+    margin-bottom: 3px;
+    
+}
+
+.mkline{
+    display: inline-block;
+    margin-left: 115px;
+
+}
+
+.material-icons.idpw_icon{/*쓰기는 썼는데 class.class를 하는 이유?*/
+    color: rgb(154, 154, 154);
+    font-size: 15px;
+    padding-top: 10px;
+    margin-left: 15px;
+    background-color: yellow;
+}
+
+.material-icons.newid_icon{
+    color: rgb(154, 154, 154);
+    font-size: 15px;
+    padding-top: 10px;
+
+}
+/* 구글 아이콘을 불러오기 위한 기본 코드?? - 가져다 쓰기는 쓰는데 무슨뜻이지*/
+
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
+    src: local('Material Icons'),
+      local('MaterialIcons-Regular'),
+      url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),
+      url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
+      url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
+  }
+  .material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+  }
+
+
+
+
+
+/*질문할거
+-------------------
+1. margin 이랑 padding 은 기능은 같은데 사용처가 박스 자체를 움직이냐, 박스 내부의 내용, 요소를 움직이나의 차이인가요?, 박스내부의 박스는 왜 패딩이 아니라 마진을 사용하는지?
+2. line-height의 값을 왜 div의 heigth값과 같게하면 세로 중앙 정렬이 되나요?*/
