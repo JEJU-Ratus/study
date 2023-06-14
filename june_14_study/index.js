@@ -42,3 +42,22 @@ fetch('https://learn.codeit.kr/api/members/7', {
 })
   .then((response) => response.text())
   .then((result) => {console.log(result);});
+
+// Content-Type 헤더 설정 - 필수로 작성해야 저비용.
+
+// 객체 선언
+const newMember = {
+  name : 'Jerry1',
+  email : 'jerry@codeitmall.kr',
+  department : 'engineering',
+};
+
+fetch('https://learn.codeit.kr/api/members', {
+  method : 'POST',
+  headers: { // headers라는 프로퍼티를 생성
+    'Content-Type' : 'application/json',// headers 프로퍼티안에 객체를 하나 만들고, 그 안에 Content-Type 프로퍼티 설정
+  },
+  body :JSON.stringify(newMember),
+})
+  .then((response) => response.text())
+  .then((result) => {console.log(result);});
