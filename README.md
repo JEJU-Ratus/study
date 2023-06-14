@@ -20,3 +20,7 @@
 
 ## june_07_study
 - URL과 CRUD 초반(Request와 Response)
+
+## june_14_study
+- Request의 Head와 Body 
+- Fetch 함수의 사용법과 REST API에 대한 약간의 이해
