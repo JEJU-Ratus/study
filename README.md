@@ -20,6 +20,3 @@
 
 ## june_07_study
 - URL과 CRUD 초반(Request와 Response)
-
-## june_08_study
-- Request의 Head와 Body 초반
