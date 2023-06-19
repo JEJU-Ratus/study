@@ -8,7 +8,7 @@ fetch('https://jsonplaceholder.typicode.com/users')
   .then((response) => response.text())
   // response.text()를 result에 callback
   .then((result) => {
-    // result를 JSON객체를 통해 JS배열객체로 만듦.
+    // result를 JSON객체를 통해 JS배열객체로 만듦.(역직렬화, Deserialize)
     const users = JSON.parse(result);
     // users 데이터의 수
     console.log(users.length);
